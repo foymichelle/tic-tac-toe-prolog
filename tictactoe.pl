@@ -72,5 +72,5 @@ play(Board) :- display(Board),
                play(NewBoardO).
 
 % Execute go. to begin play.
-go :- write("You will play as O. Enter box number to make your first move."), nl,
+go :- write("You will play as X. Enter box number to make your first move."), nl,
       play([1,2,3,4,5,6,7,8,9]).
